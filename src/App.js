@@ -16,7 +16,7 @@ export default function App() {
   }
   function insereOperacao(val) {
     if (
-      input === "0git" ||
+      input === "0" ||
       (arrOperacoes.includes(input[input.length - 1]) &&
         arrOperacoes.includes(val))
     ) {
